@@ -1,0 +1,42 @@
+a= 'Twinkle'+",twinkle,"+"littlestar,"
+b="\n"
+c="How I wonder what you are!"
+d="\n"
+e="      Up above the world so high,"
+f="\n"
+g="Like a diamond in the sky."
+h="\n"
+i="Twinkle, twinkle, little star,"
+j="\n"
+k="     How I wonder what you are"
+print(a,b,c,d,e,f,g,h,i,j,k)
+
+
+##########Python Version############
+import sys
+print("Python version")
+
+#############date time################
+import datetime
+now = datetime.datetime.now()
+
+print("Current date and time: ")
+print(now.strftime('%Y-%m-%d %H:%M:%S'))
+
+##############Radius of the circle##############
+a= int(input("please enter the radius of circle"))
+b=a*a
+c=3.14
+d=c*b
+print("area of circle is ",d)
+
+###############Reverse order name####################
+a="Ahmad"
+b="khan"
+print(b+ " " + a)
+
+#################enter two number and get sum##########
+= int(input("enter your first value"))
+b= int(input("enter your second value"))
+c=a+b
+print("The sum of two value is:",c)
